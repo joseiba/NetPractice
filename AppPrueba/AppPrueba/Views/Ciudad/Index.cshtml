@@ -1,0 +1,44 @@
+﻿@model IEnumerable<AppPrueba.Models.Ciudad>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Insert")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.id_ciudad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ubicacion_geografica)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.id_ciudad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ubicacion_geografica)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Update", new { id=item.id_ciudad }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id_ciudad  })
+        </td>
+    </tr>
+}
+
+</table>

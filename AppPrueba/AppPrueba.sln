@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppPrueba", "AppPrueba\AppPrueba.csproj", "{10C54B70-4FBA-4317-B533-763C65C60523}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppPrueba.Tests", "AppPrueba.Tests\AppPrueba.Tests.csproj", "{DFF056F8-379C-48AC-B8DF-6B554ADE80CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10C54B70-4FBA-4317-B533-763C65C60523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C54B70-4FBA-4317-B533-763C65C60523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C54B70-4FBA-4317-B533-763C65C60523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C54B70-4FBA-4317-B533-763C65C60523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFF056F8-379C-48AC-B8DF-6B554ADE80CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFF056F8-379C-48AC-B8DF-6B554ADE80CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFF056F8-379C-48AC-B8DF-6B554ADE80CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFF056F8-379C-48AC-B8DF-6B554ADE80CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B90D90F-DEB6-4AFD-A5D9-CF905284324A}
+	EndGlobalSection
+EndGlobal
