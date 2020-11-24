@@ -1,2 +1,2 @@
-# .Net-Practice
+# Net Practice
 Simple ABM for .net and oracle
